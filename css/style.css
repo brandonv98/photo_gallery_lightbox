@@ -1,3 +1,4 @@
+/*Global Styles*/
 body {
 	font-family: sans-serif;
 	background: #fff;
@@ -12,7 +13,7 @@ ul {
 	margin: 0 auto;
 	padding: 0;
 	display: block;
-	max-width: 780px;
+	max-width: 580px;
 	text-align: center;
 }
 ul li {
@@ -27,7 +28,7 @@ ul li img {
 a {
 	text-decoration: none;
 }
-/** Start Coding Here **/
+/*Sections*/
 #overlay {
   background:rgba(0,0,0,0.7);
   width:100%;
@@ -41,6 +42,7 @@ a {
 
 #overlay img {
  margin-top: 10%;
+ max-width: 650px;
 }
 
 #overlay p {
