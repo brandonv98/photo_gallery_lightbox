@@ -1,7 +1,6 @@
 lightbox.option({
     'resizeDuration': 300,
     'wrapAround': true,
-    'maxWidth' : 800,
     'showImageNumberLabel' : true,
     'alwaysShowNavOnTouchDevices' : true
 
