@@ -3,19 +3,17 @@ lightbox.option({
     'wrapAround': true,
     'showImageNumberLabel' : true,
     'alwaysShowNavOnTouchDevices' : true
-
-
   });
 
-// search gallery
+// search gallery while typeing
 $("input[name='search']").on("keyup", function() {
    var searchInput = this.value.toLowerCase();
 
    $("#imageGallery li").each(function(i) {
-      var caption = $(this).children().attr("data-title");
-      var pureCaption = $(caption).text().toLowerCase();
+      var attrData = $(this).children().attr("data-title");
+      var caption = $(attrData).text().toLowerCase();
 
-      if (pureCaption.indexOf(searchInput) > -1) {
+      if (caption.indexOf(searchInput) > -1) {
          $(this).css('display', 'inlin-block');
       } else {
          $(this).css('display', 'none');
