@@ -7,6 +7,7 @@ img {
 body {
 	font-family: sans-serif;
 	background: #fff;
+	width: 100%;
 }
 h1 {
 	color: #fff;
@@ -18,7 +19,7 @@ ul {
 	margin: 0 auto;
 	padding: 0;
 	display: block;
-	max-width: 1000px;
+	max-width: 400px;
 	text-align: center;
 }
 ul li {
@@ -39,4 +40,16 @@ input {
 	border: 1.5px solid lightgray;
 	border-radius: 5px;
 	width: 35%;
+}
+
+@media screen and (min-width: 768px) {
+	ul {
+		max-width: 790px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	ul {
+		max-width: 1000px;
+	}
 }
