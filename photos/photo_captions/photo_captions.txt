@@ -1,47 +1,36 @@
 01.jpg
-Hay Bales
-I love hay bales. Took this snap on a drive through the countryside past some straw fields.
+<h1>Hay Bales</h1>
+<p>I love hay bales. Took this snap on a drive through the countryside past some straw fields.</p>
 
 02.jpg
-Lake
-The lake was so calm today. We had a great view of the snow on the mountains from here.
+<h1>Lake</h1><p>The lake was so calm today. We had a great view of the snow on the mountains from here.</p>
 
 03.jpg
-Canyon
-I hiked to the top of the mountain and got this picture of the canyon and trees below.
+<h1>Canyon</h1><p>I hiked to the top of the mountain and got this picture of the canyon and trees below.</p>
 
 04.jpg
-Iceberg
-It was amazing to see an iceberg up close, it was so cold but didn’t snow today. 
+<h1>Iceberg</h1><p>It was amazing to see an iceberg up close, it was so cold but didn’t snow today.</p>
 
 05.jpg
-Desert
-The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.
+<h1>Desert</h1><p>The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.</p>
 
 06.jpg
-Fall
-Fall is coming, I love when the leaves on the trees start to change color.
+<h1>Fall</h1><p>Fall is coming, I love when the leaves on the trees start to change color.</p>
 
 07.jpg
-Plantation
-I drove past this plantation yesterday, everything is so green!
+<h1>Plantation</h1><p>I drove past this plantation yesterday, everything is so green!</p>
 
 08.jpg
-Dunes
-My summer vacation to the Oregon Coast. I love the sandy dunes!
+<h1>Dunes</h1><p>My summer vacation to the Oregon Coast. I love the sandy dunes!</p>
 
 09.jpg
-Countryside Lane
-We enjoyed a quiet stroll down this countryside lane. 
+<h1>Countryside Lane</h1><p>We enjoyed a quiet stroll down this countryside lane.</p>
 
 10.jpg
-Sunset
-Sunset at the coast! The sky turned a lovely shade of orange.
+<h1>Sunset</h1><p>Sunset at the coast! The sky turned a lovely shade of orange.</p>
 
 11.jpg
-Cave
-I did a tour of a cave today and the view of the landscape below was breathtaking.
+<h1>Cave</h1><p>I did a tour of a cave today and the view of the landscape below was breathtaking.</p>
 
 12.jpg
-Bluebells
-I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.
+<h1>Bluebells</h1><p>I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.</p>
