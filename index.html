@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="lightbox2-master/css/lightbox.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <title>Photo Gallery</title>
   </head>
   <body>
-    <h1>Photo Gallery</h1>
-    	<ul id="imageGallery">
-    		<li><a href="photos/01.jpg"><img src="photos/thumbnails/01.jpg" width="100" alt="?????"></a></li>
-    		<li><a href="photos/02.jpg"><img src="photos/thumbnails/02.jpg" width="100" alt="Space Juice by Mat Helme"></a></li>
-    		<li><a href="photos/03.jpg"><img src="photos/thumbnails/03.jpg" width="100" alt="Education by Chris Michel"></a></li>
-    		<li><a href="photos/04.jpg"><img src="photos/thumbnails/04.jpg" width="100" alt="Wanted: Copy McRepeatsalot by Chris Michel"></a></li>
-    		<li><a href="photos/05.jpg"><img src="photos/thumbnails/05.jpg" width="100" alt="Sebastian by Mat Helme"></a></li>
-    		<li><a href="photos/06.jpg"><img src="photos/thumbnails/06.jpg" width="100" alt="Skill Polish by Chris Michel"></a></li>
-    		<li><a href="iphotos/07.jpg"><img src="photos/thumbnails/07.jpg" width="100" alt="Chuck by Mat Helme"></a></li>
-    		<li><a href="iphotos/08.jpg"><img src="photos/thumbnails/08.jpg" width="100" alt="Library by Tyson Rosage"></a></li>
-    		<li><a href="photos/09.jpg"><img src="photos/thumbnails/09.jpg" width="100" alt="Boat by Griffin Moore"></a></li>
-    		<li><a href="photos/10.jpg"><img src="photos/thumbnails/10.jpg" width="100" alt="Illustrator Foundations by Matthew Spiel"></a></li>
-    		<li><a href="photos/11.jpg"><img src="photos/thumbnails/11.jpg" width="100" alt="Treehouse Shop by Eric Smith"></a></li>
-        <li><a href="photos/12.jpg"><img src="photos/thumbnails/12.jpg" width="100" alt="Treehouse Shop by Eric Smith"></a></li>
+    <div style="text-align:center;" class="searchinput">
+      <input id="search" type="text" name="search" placeholder="Search(16pt)">
+    </div>
+    	<ul class="gallery" id="imageGallery">
+    		<li><a href="photos/01.jpg" data-lightbox="gallery" data-title="<p>Farmland by John Doe</p>"><img src="photos/thumbnails/01.jpg" width="100" alt="Farmland by John Doe"></a></li>
+    		<li><a href="photos/02.jpg" data-lightbox="gallery" data-title="<p>The Pond by Josh Hillway</p>"><img src="photos/thumbnails/02.jpg" width="100" alt="The Pond by Josh Hillway"></a></li>
+
+    		<li><a href="photos/03.jpg" data-lightbox="gallery" data-title="<p>Skyhigh by Billy Johnson</p>"><img src="photos/thumbnails/03.jpg" width="100" alt="Skyhigh by Billy Johnson"></a></li>
+
+    		<li><a href="photos/04.jpg" data-lightbox="gallery" data-title="<p>Took this one when i was traveling around the world</p>"><img src="photos/thumbnails/04.jpg" width="100" alt="Took this one when i was traveling around the world"></a></li>
+
+    		<li><a href="photos/05.jpg" data-lightbox="gallery" data-title="<p>Mountains by John Doe</p>"><img src="photos/thumbnails/05.jpg" width="100" alt="Mountains by John Doe"></a></li>
+
+    		<li><a href="photos/06.jpg" data-lightbox="gallery" data-title="<p>The random bridge by Chris Michel</p>"><img src="photos/thumbnails/06.jpg" width="100" alt="The random bridge by Chris Michel"></a></li>
+
+    		<li><a href="photos/07.jpg" data-lightbox="gallery" data-title="<p>Hidden Hills by Jack Riffson</p>"><img src="photos/thumbnails/07.jpg" width="100" alt="Hidden Hills by Jack Riffson"></a></li>
+
+    		<li><a href="photos/08.jpg" data-lightbox="gallery" data-title="<p>Sandy Hills by Jack Riffson</p>"><img src="photos/thumbnails/08.jpg" width="100" alt="Sandy Hills by Jack Riffson"></a></li>
+
+    		<li><a href="photos/09.jpg" data-lightbox="gallery" data-title="<p>Pathways by Roger Deway</p>"><img src="photos/thumbnails/09.jpg" width="100" alt="Pathways by Roger Deway"></a></li>
+
+    		<li><a href="photos/10.jpg" data-lightbox="gallery" data-title="<p>Oceanside by John Bacwin</p>"><img src="photos/thumbnails/10.jpg" width="100" alt="Oceanside by John Bacwin"></a></li>
+
+    		<li><a href="photos/11.jpg" data-lightbox="gallery" data-title="<p>I took this one when i went hiking up the mountains</p>"><img src="photos/thumbnails/11.jpg" width="100" alt="I took this one when i went hiking up the mountains"></a></li>
+
+        <li><a href="photos/12.jpg" data-lightbox="gallery" data-title="<p>Found a flower field on our hiking adventure</p>"><img src="photos/thumbnails/12.jpg" width="100" alt="Found a flower field on our hiking adventure"></a></li>
+
     	</ul>
     	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+      <script src="lightbox2-master/js/lightbox.min.js"></script>
     	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
