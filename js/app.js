@@ -1,34 +1,25 @@
+lightbox.option({
+    'resizeDuration': 300,
+    'wrapAround': true,
+    'maxWidth' : 800,
+    'showImageNumberLabel' : true,
+    'alwaysShowNavOnTouchDevices' : true
 
-var $overlay = $('<div id="overlay"></div>');
-var $image = $("<img>");
-var $caption = $("<p></p>");
 
-//An image to overlay
-$overlay.append($image);
+  });
 
-//A caption to overlay
-$overlay.append($caption);
+// search gallery
+$("input[name='search']").on("keyup", function() {
+   var searchInput = this.value.toLowerCase();
 
-//Add overlay
-$("body").append($overlay);
+   $("#imageGallery li").each(function(i) {
+      var caption = $(this).children().attr("data-title");
+      var pureCaption = $(caption).text().toLowerCase();
 
-//Capture the click event on a link to an image
-$("#imageGallery a").click(function(event){
-  event.preventDefault();
-  var imageLocation = $(this).attr("href");
-  //Update overlay with the image linked in the link
-  $image.attr("src", imageLocation);
-
-  //Show the overlay.
-  $overlay.show();
-
-  //set caption to photo
-  var captionText = $(this).children("img").attr("alt");
-  $caption.text(captionText);
-});
-
-//When overlay is clicked
-$overlay.click(function(){
-  //Hide the overlay
-  $overlay.hide();
+      if (pureCaption.indexOf(searchInput) > -1) {
+         $(this).css('display', 'inlin-block');
+      } else {
+         $(this).css('display', 'none');
+      }
+   });
 });
