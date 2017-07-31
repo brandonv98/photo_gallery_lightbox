@@ -12,7 +12,7 @@ $("input[name='search']").on("keyup", function() {
    $("#imageGallery li").each(function(i) {
       var attrData = $(this).children().attr("data-title");
       var caption = $(attrData).text().toLowerCase();
-
+      //search
       if (caption.indexOf(searchInput) > -1) {
          $(this).css('display', 'inlin-block');
       } else {
